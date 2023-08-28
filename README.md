@@ -10,8 +10,8 @@ Dumb password generator.
 
 #### Linux :
 
-    git clone https://github.com/uzdenov85/password-generator.git
-    cd password-generator
+    #git clone https://github.com/uzdenov85/password-generator.git
+    #cd password-generator
 
 #### First run script as bellow :
     #python3 password-generator.py
