@@ -8,7 +8,7 @@ Dumb password generator.
 
 ## How to use
 
-#### On Linux :
+#### Linux :
 
     git clone https://github.com/uzdenov85/password-generator.git
     cd password-generator
