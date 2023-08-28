@@ -1,5 +1,5 @@
 # password-generator
-Dumb password generator.
+#### Dumb password generator.
 
 
 ### Requirements
@@ -16,7 +16,7 @@ Dumb password generator.
 #### First run script :
     #python3 password-generator.py
 #### You will prompted choose mode :
-1. Write generated password to file. Default filename is 'passwords.txt' and located in script running path.
-2. Just generate password to output
+1. Write to file
+2. Generate and print
 
 #### Thats it!
