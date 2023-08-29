@@ -3,7 +3,7 @@ import random
 SMALL_LETTERS = 'abcdefghkmnpqrstuvwxyz'
 CAPITAL_LETTERS = SMALL_LETTERS.upper()
 DIGITS = '0123456789'
-SYMBOLS = '?#@$%&-*'
+SYMBOLS = '?#@$%&-*+/|[]{}\'"'
 ALPHANUMERIC_SYMBOLS = SMALL_LETTERS + CAPITAL_LETTERS + DIGITS + SYMBOLS
 
 
@@ -27,7 +27,7 @@ def main():
         
         generated_password = generate_password(password_length)
         password_file.write(resource_name + ', ' + resource_url + ', ' +  resource_credentials + ', ' + generated_password + '\n')
-        add_one_more = str(input('Add one more? Yes/Y/y|No/N/n (default: No): '))
+        add_one_more = str(input('Add one more? Yes/yes/Y/y|No/no/N/n (default: No): '))
         if add_one_more == 'Yes' or add_one_more == 'yes' or add_one_more == 'Y' or add_one_more == 'y':
             main()
         else:
